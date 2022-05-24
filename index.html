@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>WASM Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    
+    <h1>WASM Demo</h1>
+
+    <script src="scripts.js"></script>
+    <h2>Square the numbers below:</h2>
+    <p>2<sup>2</sup> = <a href="#" id="caller1" onClick="document.getElementById('caller1').replaceWith(document.createTextNode(squarer(2)));">Click to invoke squarer(2) from C++ code</a></p>
+    <p>3<sup>2</sup> = <a href="#" id="caller2" onClick="document.getElementById('caller2').replaceWith(document.createTextNode(squarer(3)));">Click to invoke squarer(3) from C++ code</a></p>
+    <p>4<sup>2</sup> = <a href="#" id="caller3" onClick="document.getElementById('caller3').replaceWith(document.createTextNode(squarer(4)));">Click to invoke squarer(4) from C++ code</a></p>
+    <p>5<sup>2</sup> = <a href="#" id="caller4" onClick="document.getElementById('caller4').replaceWith(document.createTextNode(squarer(5)));">Click to invoke squarer(5) from C++ code</a></p>
+    <p>6<sup>2</sup> = <a href="#" id="caller5" onClick="document.getElementById('caller5').replaceWith(document.createTextNode(squarer(6)));">Click to invoke squarer(6) from C++ code</a></p>
+    <p>7<sup>2</sup> = <a href="#" id="caller6" onClick="document.getElementById('caller6').replaceWith(document.createTextNode(squarer(7)));">Click to invoke squarer(7) from C++ code</a></p>
+    <p>8<sup>2</sup> = <a href="#" id="caller7" onClick="document.getElementById('caller7').replaceWith(document.createTextNode(squarer(8)));">Click to invoke squarer(8) from C++ code</a></p>
+    <p>9<sup>2</sup> = <a href="#" id="caller8" onClick="document.getElementById('caller8').replaceWith(document.createTextNode(squarer(9)));">Click to invoke squarer(9) from C++ code</a></p>
+    <p>10<sup>2</sup> = <a href="#" id="caller9" onClick="document.getElementById('caller9').replaceWith(document.createTextNode(squarer(10)));">Click to invoke squarer(10) from C++ code</a></p>
+</body>
+</html>
